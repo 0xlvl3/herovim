@@ -1,1 +1,2 @@
-require "user.options"
+require "hero.options"
+require "hero.packer"

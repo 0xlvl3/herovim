@@ -14,7 +14,7 @@ local options = {
 	tabstop = 4, 						-- number of spaces that <Tab> in file uses
 	smartindent = true,					-- smart autoindenting for C programs
 	number = true,						-- print the line number in front of each line
-	spell = true, 						-- enable spell checking
+--	spell = true, 						-- enable spell checking
 	clipboard = "unnamedplus",			-- use the clipboard as the unnamed register
 	cmdheight = 3,						-- number of lines to use for the command-line
 	splitbelow = true,					-- new window from split is below the current one
@@ -34,3 +34,4 @@ for k, v in pairs(options) do
 end
 
 
+vim.g.mapleader = " "					-- leader key set to space
