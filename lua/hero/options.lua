@@ -34,4 +34,3 @@ for k, v in pairs(options) do
 end
 
 
-vim.g.mapleader = " "					-- leader key set to space
