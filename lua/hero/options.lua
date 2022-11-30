@@ -24,6 +24,7 @@ local options = {
 	cursorline = true,					-- highlight the screen line of the cursor 
 --	cursorlineopt = "number",			-- option value for cursorline can single line to either "number" or "line"
 	wrap = false,						-- long lines wrap and continue on the next line
+	termguicolors = true,				-- set term gui colors
 	
 }
 
